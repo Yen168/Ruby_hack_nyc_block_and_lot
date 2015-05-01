@@ -33,7 +33,7 @@ stockup.each do |name,value|
 
 end
 
-#buliding_url= 'http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?boro='+stockup[:hid_borought_bbl].to_s+'&block='+stockup[:hid_block].to_s+'&lot='+stockup[:hid_lot].to_s
+#buliding_url = "Please drop me a mail to get more info. yenan.chen@gmail.com"
 
 #bulid_doc = Nokogiri::HTML(open( buliding_url ))
 
