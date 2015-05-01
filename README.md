@@ -1,4 +1,4 @@
-# Ruby_hack_nyc_block_and_lot
-# Hack NYC Block & Lots API
+
+# Hack NYC Block & Lots API -use Ruby
 
 ## To get more info, please drop me a email.
