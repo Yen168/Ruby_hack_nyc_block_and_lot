@@ -16,7 +16,7 @@ puts "UNIT if APP: "
 text_unit = gets.chomp
 
 params = {'find_type'=>"FindBBL",'select_borough' => select_borough,'text_unit' => text_unit, 'text_street_number' => text_street_number, 'text_street_name' => text_street_name}
-x = Net::HTTP.post_form(URI.parse('http://a836-acris.nyc.gov/CP/LookUp/Return'), params)
+x = Net::HTTP.post_form(URI.parse('NYC B&L API'), params)
 #puts x.body
 
 doc = Nokogiri::HTML(x.body)
